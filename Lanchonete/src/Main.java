@@ -3,12 +3,11 @@ public class Main {
     public static void main(String[] args) {
 
         Cantina cantina = new Cantina();
-        cantina.nome = "Zé lanches";
-
         Salgado salgado1 = new Salgado();
         Salgado salgado2 = new Salgado();
         Salgado salgado3 = new Salgado();
 
+        cantina.nome = "Zé lanches";
         salgado1.nome = "Coxinha";
         salgado2.nome = "Esfirra";
         salgado3.nome = "Humburgão";
@@ -18,7 +17,6 @@ public class Main {
         cantina.addSalgados(salgado3);
 
         cantina.mostraInfo();
-
 
     }
 
