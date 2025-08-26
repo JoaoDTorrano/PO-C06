@@ -13,7 +13,7 @@ public class Cantina {
     }
 
     void mostraInfo(){
-        System.out.println("A Cantina: " + this.nome + " possui os seguintes salgados:");
+        System.out.println(nome + " possui esses salgados no menu:");
         for (Salgado salgado : salgados) {
             if(salgado != null)
                 System.out.println(salgado.nome);
